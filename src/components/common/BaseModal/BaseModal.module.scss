@@ -1,0 +1,7 @@
+.modal {
+  @apply fixed flex top-0 left-0 justify-center items-center flex h-[100vh] w-[100%] ;
+
+  &__inner {
+    @apply basis-[600px] bg-white h-[400px] shadow-lg rounded-[10px] overflow-auto p-[20px];
+  }
+}
